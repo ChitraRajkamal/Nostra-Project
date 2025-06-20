@@ -110,7 +110,7 @@ input:focus {
 
     .slide-content {
         display: none;
-    }    
+    }
 }
 
 /*Side Navbar*/
@@ -145,7 +145,7 @@ input:focus {
 
 /*sale image*/
 .container {
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .sale-image img {
@@ -184,29 +184,139 @@ input:focus {
     color: #1D232C;
 }
 
-.left-slide{
+.left-slide {
     position: absolute;
-    top:25%
+    top: 25%
 }
-.right-slide{
+
+.right-slide {
     position: absolute;
-    top:25%
+    top: 25%
 }
-.left-slide i{
+
+.left-slide i {
     width: 100Px;
 }
-.right-slide i{
+
+.right-slide i {
     width: 100Px;
 }
-.brands-section{
+
+.brands-section {
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
-.brands-item img{
-    width: 40px;
-    height: 40px;
+
+.brands-item img {
+    width: 60px;
+    height: 60px;
 }
-.brands-item p{
+
+.brands-item p {
 
     font-size: 25px;
 }
+
+.brands {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.customer {
+    margin-left: 20px;
+   margin-right: 20px;
+    grid-template-rows: 1fr 3fr;
+    height: 300px;
+    width: 100%;
+}
+
+.customer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    height: 120px;
+
+}
+
+.customer-top__main {
+    
+    font-size: 21px;
+    display: grid;
+    
+}
+
+.customer-top__side {
+   
+    font-size: 22px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    gap: 10px;
+    height: 150px;
+}
+
+.customer-bottom__1,.customer-bottom__2,.customer-bottom__3,.customer-bottom__4 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F2F4F7
+}
+.newarrival{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .newarrival img {
+    border-radius: 10px;
+ }
+ .newarrival button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 150px;
+    margin-left: 50px;
+
+ }
+ .Most-Wanted{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .Most-Wanted img{
+    /* position: absolute; */
+    top: 0;
+ }
+ .Most-Wanted p{
+font-size: 30px;
+background-color: red;
+height: 40px;
+width: 80px;
+border-radius: 5px;
+color: white;
+padding-left: 18px;
+position: absolute;
+top: 0;
+    
+ }
+
